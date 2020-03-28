@@ -25,7 +25,7 @@ function newDrop() {
 }
 
 window.onload = function() {
-    n = 100;
+    n = Number.MAX_SAFE_INTEGER;
     newDrop();
     interval = setInterval(function() {
         var drops = document.getElementsByClassName('punct'),
